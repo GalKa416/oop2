@@ -5,9 +5,7 @@ public class Car extends MotorTransport {
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
+
 
     @Override
     public void service() {
